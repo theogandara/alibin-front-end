@@ -19,6 +19,7 @@ export const ColumnHeader = styled.div`
     font-family: "Sans";
     font-weight: 500;
     color: #808080;
+    font-weight: 600;
 `
 
 export const Button = styled.button`

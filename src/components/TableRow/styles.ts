@@ -6,6 +6,12 @@ export const RowContainer = styled.div`
     grid-template-columns: 216px 216px 216px 216px 70px;
     gap: 16px;
     border-bottom: #8080803d 1px solid;
+
+    transition: all 0.4s;
+
+    &:hover{
+        background-color: #4682B41a;
+    }
 `
 
 export const ColumnRow = styled.div`
@@ -17,6 +23,8 @@ export const ColumnRow = styled.div`
     color: #808080;
     display: flex;
     gap: 16px;
+    align-items: center;
+
 `
 
 export const ButtonRow = styled.div`
@@ -26,8 +34,8 @@ export const ButtonRow = styled.div`
 
 export const Badge = styled.div`
     height: 24px;
-    color: #4682B4;
-    background-color: #87CEEBb3;
+    color: #4682B4e3;
+    background-color: #87CEEB4d;
     border-radius: 4px;
     display: flex;
     align-items: center;
