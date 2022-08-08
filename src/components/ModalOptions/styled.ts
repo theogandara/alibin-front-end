@@ -44,3 +44,7 @@ export const Label = styled.label`
     align-items: center;
     gap: 8px;
 `
+
+export const Input = styled.input`
+    cursor: pointer;
+`
