@@ -18,7 +18,7 @@ export const ColumnHeader = styled.div`
     width: 100%;
     padding: 8px;
     font-size: 12px;
-    font-family: "Sans";
+    font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     color: #808080;
     font-weight: 600;

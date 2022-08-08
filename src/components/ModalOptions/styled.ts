@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ModalBody = styled.div`
     width: 150px;
-    height: 250px;
+    height: 265px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     position: absolute;
     transition: all 0.5s;
@@ -12,8 +12,7 @@ export const ModalBody = styled.div`
     top: 30px;
     z-index: 10;
     cursor: auto;
-    font-family: "Sans";
-    padding: 8px 0px;
+    font-family: 'Open Sans', sans-serif;
 `
 
 export const Title = styled.div`
