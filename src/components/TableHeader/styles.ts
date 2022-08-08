@@ -10,6 +10,8 @@ export const RowContainer = styled.div`
     grid-template-columns: 216px 216px 216px 216px 70px;
     gap: 16px;
     border-bottom: #8080803d 1px solid;
+    position: relative;
+    transition: all 0.5s;
 `
 
 export const ColumnHeader = styled.div`
